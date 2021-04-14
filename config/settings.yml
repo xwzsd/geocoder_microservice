@@ -1,5 +1,9 @@
+app:
+  name: geocoder
 pagination:
   page_size: 10
-
 rabbitmq:
   consumer_pool: 10
+logger:
+  path: log/app.log
+  level: info
