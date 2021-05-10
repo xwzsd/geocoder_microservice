@@ -2,3 +2,12 @@
 .rvmrc
 .byebug_history
 *.DS_Store
+
+/log/*
+!/log/.keep
+
+config/settings.local.yml
+config/settings/*.local.yml
+
+deploy/*.tar
+deploy/*.tar.gz
