@@ -3,6 +3,9 @@ app:
 pagination:
   page_size: 10
 rabbitmq:
+  host: <%= ENV['RABBITMQ_HOST']%>
+  username: <%= ENV['RABBITMQ_USER']%>
+  password: <%= ENV['RABBITMQ_PASSWORD']%>
   consumer_pool: 10
 logger:
   path: log/app.log
